@@ -1,0 +1,574 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Кондитерская MaryGreatCookie</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="../css/style.css" />
+
+	<!-- Optional plugins -->
+	<script src="https://kit.fontawesome.com/c4b30aa657.js" crossorigin="anonymous"></script>
+
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Десерты на заказ в Магнитогорске">
+	<meta name="keywords" content="кондитерские изделия, торты, макаронс, трайфлы, шоколад, капкейки">
+
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!-- Header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__inner">
+
+				<div class="header__menu menu">
+					<div class="header__logo" data-scroll="#intro">
+						<img src="../img/icons/logo.png" alt="">
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="" class="menu__link" data-scroll="#about">Обо мне</a></li>
+							<li><a href="" class="menu__link" data-scroll="#goods">Ассортимент</a>
+								<span class="menu__arrow arrow"></span>
+								<ul class="menu__sub-list">
+									<li><a href="" class="menu__sub-link" data-scroll="#choco">Шоколад</a></li>
+									<li><a href="" class="menu__sub-link" data-scroll="#cupcakes">Капкейки</a></li>
+									<li><a href="" class="menu__sub-link" data-scroll="#macarons">Макаронс</a></li>
+									<li><a href="" class="menu__sub-link" data-scroll="#trifle">Трайфлы</a></li>
+									<li><a href="" class="menu__sub-link" data-scroll="#cakes">Торты</a></li>
+								</ul>
+							</li>
+							<li><a href="" class="menu__link" data-scroll="#reviews">Отзывы</a></li>
+							<li><a href="" class="menu__link" data-scroll="#contact">Контакты</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+			</div>
+
+			<button class="burger" type="button">
+				<span class="burger__item">Menu</span>
+			</button>
+		</div>
+	</header>
+
+	<!-- Intro -->
+	<div class="intro" id="intro">
+		<div class="intro__icons">
+
+			<img class="icon-1" src="../img/icons/piceofcake.png" alt="">
+			<img class="icon-2" src="../img/icons/cherries.png" alt="">
+			<img class="icon-3" src="../img/icons/cupcake.png" alt="">
+			<img class="icon-4" src="../img/icons/strawberry.png" alt="">
+			<img class="icon-5" src="../img/icons/cake.png" alt="">
+			<img class="icon-6" src="../img/icons/spoon.png" alt="">
+			<img class="icon-7" src="../img/icons/raspberry.png" alt="">
+			<img class="icon-8" src="../img/icons/piceofcake.png" alt="">
+			<img class="icon-9" src="../img/icons/cupcake.png" alt="">
+			<img class="icon-10" src="../img/icons/spoon.png" alt="">
+			<img class="icon-11" src="../img/icons/cherries.png" alt="">
+			<img class="icon-12" src="../img/icons/raspberry.png" alt="">
+		</div>
+
+		<div class="container">
+			<div class="intro__inner">
+				<h2 class="intro__subtitle">MaryGreatCookie</h2>
+				<h1 class="intro__title">"В году <span>365</span> поводов для торта,
+					и я помогу Вам сделать его
+					особенным"
+				</h1>
+				<a class="btn" href="#" data-scroll="#about">Узнать больше</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+	<section class="section" id="about">
+		<div class="container">
+			<h1 class="section__title">Обо мне</h1>
+			<div class="section__row">
+				<div class="section__photo">
+					<img src="../img/mary.jpg" alt="">
+				</div>
+				<div class="section__text">Добро пожаловать в кондитерскую <span>MaryGreatCookie!</span>
+					Как вы уже догадались, зовут меня Маша! Я готовлю для вас десерты
+					с 2018 года. С радостью помогу Вам подобрать начинки и сделаю особенный дизайн
+					по Вашему заказу для любого Вашего праздничного (и не только) события :)
+				</div>
+			</div>
+
+			<!-- Features -->
+			<div class="features">
+				<div class="features__subtitle">Я предлагаю</div>
+				<div class="features__column">
+					<div class="features__item">
+						<div class="features__icon"><i class="fa-regular fa-heart"></i></div>
+						<div class="features__text">Только натуральные и свежие продукты</div>
+					</div>
+
+					<div class="features__item">
+						<div class="features__icon"><i class="fa-solid fa-dolly"></i></div>
+						<div class="features__text">Доставка по Магнитогорску и пригороду</div>
+					</div>
+
+					<div class="features__item">
+						<div class="features__icon"><i class="fa-solid fa-cake-candles"></i></div>
+						<div class="features__text">Большое многообразие начинок</div>
+					</div>
+
+					<div class="features__item">
+						<div class="features__icon"><i class="fa-solid fa-palette"></i></div>
+						<div class="features__text">Оригинальный декор</div>
+					</div>
+				</div>
+			</div> <!-- /Features -->
+		</div> <!-- /Container -->
+	</section> <!-- /About -->
+
+	<!-- Goods -->
+	<section class="section section_goods" id="goods">
+		<div class="container">
+			<h1 class="section__title">Ассортимент</h1>
+
+			<!-- Chocolate -->
+			<div class="section">
+				<h2 class="section__subtitle" id="choco">Шоколад / Chocolate</h2>
+				<div class="chocolate__row">
+					<div class="chocolate__column chocolate__column_l chocolate__column_acc">
+						<div class="accordion">
+							<div class="accordion__item" data-collapse="#choco_1">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/compact-disk.png" alt="">
+									<div class="accordion__title">Шоколадные диски</div>
+								</div>
+								<div class="accordion__content" id="choco_1">
+									<div class="accordion__image"><img class="minimized"
+											src="../img/goods/choco/chocolate_disk.jpg" alt="">
+									</div>
+									<div class="accordion__column">
+										<p>Набор шоколадных клубничных дисков с сублимированными ягодами
+											(клубника, малина) и шоколадными шариками криспи.</p>
+										<div class="accordion__weight">66 г</div>
+										<div class="accordion__cost">250 р</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item" data-collapse="#choco_2">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/chocolate_1.png" alt="">
+									<div class="accordion__title">Клубчничный бельгийский</div>
+								</div>
+								<div class="accordion__content" id="choco_2">
+									<div class="accordion__image"><img class="minimized" src="../img/goods/choco/chocolate_1.jpg"
+											alt="">
+									</div>
+									<div class="accordion__column">
+										<p>Клубничный бельгийский шоколад с сублимированными ягодами (клубника и малина)
+											и шоколадными шариками криспи</p>
+										<div class="accordion__weight">100 г</div>
+										<div class="accordion__cost">350 р</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item" data-collapse="#choco_3">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/chocolate_2.png" alt="">
+									<div class="accordion__title">Молочный итальянский</div>
+								</div>
+								<div class="accordion__content" id="choco_3">
+									<div class="accordion__image minimized"><img class="minimized"
+											src="../img/goods/choco/chocolate_5.jpg" alt="">
+									</div>
+									<div class="accordion__column">
+										<p>Молочный итальянский шоколад с воздушным рисом в карамели и апельсиновыми цукатами</p>
+										<div class="accordion__weight">100 г</div>
+										<div class="accordion__cost">260 р</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item" data-collapse="#choco_4">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/chocolate_3.png" alt="">
+									<div class="accordion__title">Белый бельгийский</div>
+								</div>
+								<div class="accordion__content" id="choco_4">
+									<div class="accordion__image"><img class="minimized" src="../img/goods/choco/chocolate_2.jpg"
+											alt="">
+									</div>
+									<div class="accordion__column">
+										<p>Белый бельгийский шоколад с миндалем и кокосовой стружкой.</p>
+										<div class="accordion__weight">100 г</div>
+										<div class="accordion__cost">300 р</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.accordion -->
+					</div> <!-- /.chocolate__column l-->
+					<div class="chocolate__column chocolate__column_r chocolate__column_video">
+						<video class="video" loop controls muted>
+							<source src="../img/goods/reels/1.mp4" type="video/mp4">
+						</video>
+					</div> <!-- /.chocolate__column r-->
+				</div> <!-- /chocolate__row -->
+			</div> <!-- /chocolate -->
+		</div> <!-- /container -->
+		<!-- Cupcakes -->
+		<section class="section section_cupcakes">
+			<div class="container">
+				<h2 class="section__subtitle" id="cupcakes">Капкейки / Cupcakes</h2>
+				<div class="chocolate__row">
+					<div class="chocolate__column chocolate__column_r">
+						<p style="font-size: 24px; margin-bottom:10px;">Вы можете заказать от 6 шт и более.</p>
+						<div class="accordion__cost">1 шт - 200 р</div>
+
+					</div>
+					<div class="chocolate__column chocolate__column_l chocolate__column_slider">
+						<div class="slider">
+							<div class="slider__item">
+								<img src="../img/goods/cupcake/cupcake_1.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/cupcake/cupcake_2.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/cupcake/cupcake_3.jpg" alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</section> <!-- /Cupcakes -->
+
+		<!-- Macarons -->
+		<section class="section">
+			<div class="container">
+				<h2 class="section__subtitle" id="macarons">Макаронс / Macarons</h2>
+				<div class="section__info">
+					<p>Вы можете заказать от 6 шт и более.</p>
+					<div class="accordion__cost">1 шт - 110 р</div>
+				</div>
+
+				<div class="chocolate__row">
+					<div class="chocolate__column chocolate__column_l chocolate__column_slider">
+						<div class="slider">
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_1.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_2.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_3.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_4.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_5.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/macaroons/macaroon_6.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="chocolate__column chocolate__column_r chocolate__column_video">
+						<video class="video2" loop controls muted>
+							<source src="../img/goods/reels/2.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</section> <!-- /Macarons -->
+
+		<!-- Trifle -->
+		<section class="section section_trifles">
+			<div class="container">
+				<h2 class="section__subtitle" id="trifle">Трайфлы / Trifle</h2>
+				<h3 class="section__subtitle section__subtitle_eng"></h3>
+				<div class="chocolate__row">
+					<div class="chocolate__column chocolate__column_acc">
+						<div class="accordion2">
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/trifle_1.png" alt="">
+									<div class="accordion__title">Трайфл "Сникерс"</div>
+								</div>
+								<div class="accordion__content">
+									<div class="accordion__image">
+										<img class="minimized" src="../img/goods/trifle/trifle_1_2.jpg" alt="">
+									</div>
+									<div class="accordion__column">
+										<ul class="accordion__list">
+											<li>шоколадный бисквит</li>
+											<li>карамель</li>
+											<li>арахис</li>
+											<li>классический крем-чиз</li>
+										</ul>
+										<div class="accordion__weight">Заказ от 4 шт</div>
+										<div class="accordion__cost">1 шт - 150 р</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/trifle_2.png" alt="">
+									<div class="accordion__title">Трайфл "Рафаэлло"</div>
+								</div>
+								<div class="accordion__content">
+									<div class="accordion__image">
+										<img class="minimized" src="../img/goods/trifle/trifle_3_2.jpg" alt="">
+									</div>
+									<div class="accordion__column">
+										<ul class="accordion__list">
+											<li>минадальный бисквит</li>
+											<li>кокосовый крем-чиз</li>
+											<li>миндаль</li>
+											<li>сгущенное молоко</li>
+										</ul>
+										<div class="accordion__weight">Заказ от 4 шт</div>
+										<div class="accordion__cost">1 шт - 150 р</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="../img/icons/trifle_3.png" alt="">
+									<div class="accordion__title">Трайфл "Тирамису"</div>
+								</div>
+								<div class="accordion__content">
+									<div class="accordion__image minimized">
+										<img class="minimized" src="../img/goods/trifle/trifle_2_2.jpg" alt="">
+									</div>
+									<div class="accordion__column">
+										<ul class="accordion__list">
+											<li>печенье "савоярди" в кофейной пропитке</li>
+											<li>крем на основе маскарпоне</li>
+											<li>какао</li>
+										</ul>
+										<div class="accordion__weight">Заказ от 4 шт</div>
+										<div class="accordion__cost">1 шт - 150 р</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.accordion -->
+					</div> <!-- /.chocolate__column r-->
+					<div class="chocolate__column chocolate__column_slider">
+						<div class="slider">
+							<div class="slider__item">
+								<img src="../img/goods/trifle/trifle_1.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/trifle/trifle_2.jpg" alt="">
+							</div>
+							<div class="slider__item">
+								<img src="../img/goods/trifle/trifle_3.jpg" alt="">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</section> <!-- /Trifle -->
+
+		<!-- Cakes -->
+		<section class="section section_cakes">
+			<h2 class="section__subtitle" id="cakes">Торты</h2>
+			<h3 class="section__subtitle section__subtitle_eng">(Cakes)</h3>
+
+			</div>
+		</section> <!-- /Cakes -->
+
+		<!-- Cakes -->
+		<div class="cakes">
+			<div class="cakes__column cakes__column_l">
+				<div class="cakes__item">
+					<div class="cakes__image cakes__image_big"><img src="../img/goods/cakes/cake_2.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Сникерс"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">3 кг</div>
+							<div class="accordion__cost">4500 р</div>
+						</div>
+					</div>
+				</div>
+				<div class="cakes__item">
+					<div class="cakes__image cakes__image_big"><img src="../img/goods/cakes/cake_6.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Шоколад-крем-чиз"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1,3 кг</div>
+							<div class="accordion__cost">2000 р</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cakes__column cakes__column_r">
+				<div class="cakes__item">
+					<div class="cakes__image"><img src="../img/goods/cakes/cake_1_2.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Шоколад - хрустящий слой"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1 кг</div>
+							<div class="accordion__cost">2000 р</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="cakes__item">
+					<div class="cakes__image"><img src="../img/goods/cakes/cake_3_2.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Шоколад - черная смородина"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1 кг</div>
+							<div class="accordion__cost">2200 р</div>
+						</div>
+					</div>
+				</div>
+				<div class="cakes__item">
+					<div class="cakes__image"><img src="../img/goods/cakes/cake_7_2.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Апельсин-манго-маракуйя"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1 кг</div>
+							<div class="accordion__cost">2200 р</div>
+						</div>
+					</div>
+				</div>
+				<div class="cakes__item">
+					<div class="cakes__image"><img src="../img/goods/cakes/cake_4_2.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Шоколад-малина/вишня"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1 кг</div>
+							<div class="accordion__cost">2000 р</div>
+						</div>
+					</div>
+				</div>
+				<div class="cakes__item">
+					<div class="cakes__image"><img src="../img/goods/cakes/cake_8.jpg" alt=""></div>
+					<div class="cakes__info">
+						<div class="cakes__logo"><img src="../img/icons/logo.png" alt=""></div>
+						<div class="cakes__title">Торт "Шоколад с кармельным крем-чизом"</div>
+						<div class="cakes__attributes">
+							<div class="accordion__weight">1 кг</div>
+							<div class="accordion__cost">1500 р</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- /cakes__column_r -->
+		</div> <!-- /Cakes -->
+
+		<!-- Reviews -->
+		<section class="section">
+			<div class="container">
+				<h2 class="section__title" id="reviews">Отзывы</h2>
+				<h3 class="section__subtitle" id="reviews">Что говорят клиенты</h3>
+				<div class="section__text">Я придаю огромное значение работе с клиентами. Отзывы клиентов очень важны, чтобы
+					помочь мне сделать все наилучшим способом.</div>
+
+				<div class="slider slider_reviews">
+					<div class="slider__item ">
+						<img src="../img/goods/reviews/stories.JPG" alt="">
+					</div>
+					<div class="slider__item ">
+						<img src="../img/goods/reviews/stories2.JPG" alt="">
+					</div>
+					<div class="slider__item ">
+						<img src="../img/goods/reviews/stories3.JPG" alt="">
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</section> <!-- /Reviews -->
+
+		<!-- Contact -->
+		<section class="section">
+			<div class="container">
+				<h2 class="section__title" id="contact">Контакты</h2>
+				<div class="section__text">Вы можете связаться со мной для заказа через аккаунты
+					в социальных сетях, а также на маркетплейс "flowwow": </div>
+				<div class="section__social social">
+					<a class="social__item" href="https://vk.com/maryhr" target="_blank">
+						<i class="fa-brands fa-vk"></i>
+					</a>
+					<a class="social__item" href="https://instagram.com/marygreatcookie?igshid=YmMyMTA2M2Y=" target="_blank">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a class="social__item social__item_flow" href="https://flowwow.com/shop/marygreatcookie/?from=product"
+						target="_blank">
+						<svg width="113" height="32" viewBox="0 0 113 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M30.5097 7.72414c-1.5882 0-2.6801.60188-3.375 1.70533-.6949 1.10343-.6949 1.60503-.6949 3.31033v.9028h-1.2904v2.4076h1.2904v9.0282h2.7795v-9.0282h2.8787v-2.4076h-2.8787v-.9028c0-1.8056.0992-2.1066 1.0919-2.5078.1985-.1003.3971-.1003.5956-.1003.2978 0 .5956.1003.7941.2006l.3971.2006V8.22571l-.0993-.10032c-.397-.30094-.8934-.40125-1.489-.40125zm3.2758-.20063h2.7795V25.0784h-2.7795V7.52351zM44.8041 13.442c-3.2758 0-5.8567 2.6082-5.8567 5.9185s2.5809 5.9185 5.8567 5.9185 5.8567-2.6082 5.8567-5.9185-2.5809-5.9185-5.8567-5.9185zm0 9.5298c-1.7868 0-3.1765-1.5047-3.1765-3.6113 0-2.1066 1.3897-3.6113 3.1765-3.6113s3.1765 1.5047 3.1765 3.6113c0 2.1066-1.3897 3.6113-3.1765 3.6113zm32.7578-2.2069l-1.9853-6.0188-.397-1.1035h-1.9854l-.2978 1.1035-1.9853 6.0188-2.3824-7.022.0993-.1003h-2.8787l.0992.2007-2.3824 6.9216-1.9853-6.0188-.3971-1.1035h-1.9853l-.4963 1.1035-1.9853 6.0188-2.3824-7.1223h-2.7795l4.2685 11.4358h1.6875l2.4817-6.6207 2.4816 6.6207h1.6875l2.8788-7.6239 2.8787 7.6239h1.6875l2.4817-6.6207 2.4816 6.6207h1.9853l4.3678-11.4358h-2.7795l-2.4817 7.1223zm11.6142-7.3229c-3.2758 0-5.8567 2.6082-5.8567 5.9185s2.5809 5.9185 5.8567 5.9185 5.8567-2.6082 5.8567-5.9185-2.5809-5.9185-5.8567-5.9185zm0 9.5298c-1.7868 0-3.1765-1.5047-3.1765-3.6113 0-2.1066 1.3897-3.6113 3.1765-3.6113s3.1765 1.5047 3.1765 3.6113c0 2.1066-1.3897 3.6113-3.1765 3.6113zm20.9449-9.3292l-2.382 7.1223-1.985-6.0188-.398-1.1035h-1.985l-.298 1.1035-1.985 6.0188-2.3823-7.1223h-2.7795l4.3678 11.4358h1.687l2.482-6.6207 2.482 6.6207h1.687L113 13.6426h-2.879zm-99.4645 7.3229l-.0993-6.2194c2.8787-.4013 4.9633-2.1066 6.0553-5.11601.9926-2.60815 1.1912-6.52037.8934-8.62696-1.6876.40126-4.2685 1.80565-5.0626 2.50784C11.8477 2.40752 10.458.80251 9.4653 0c-.99267.90282-2.38239 2.40752-2.97799 3.51097-.79413-.70219-3.37505-2.10658-5.06258-2.50784-.2978 2.10659-.09927 6.01881.8934 8.62696 1.09193 3.00941 3.17652 4.71471 6.05524 5.11601v6.3197s0-.1003-.09927-.1003C6.78511 18.558 3.90639 15.9498.13427 14.9467-.65986 21.5674 2.02033 29.3919 9.4653 32c7.445-2.6081 10.1252-10.5329 9.331-17.1536-3.7721 1.1034-6.5515 3.7116-8.1398 6.1191zm-8.43764-2.8088c2.87872 1.7054 6.15451 4.9154 6.05524 10.9342-3.67285-2.4075-5.65817-6.0188-6.05524-10.9342zm7.24644-5.6175c-4.66552 0-5.75745-4.21318-5.95598-8.42635 1.29046.7022 2.48166 1.70533 3.47432 2.80878.69486-1.5047 1.29046-2.60815 2.48166-3.81191 1.1912 1.20376 1.7868 2.30721 2.4817 3.81191.9926-1.00313 2.1838-2.10658 3.4743-2.70846-.1986 4.11285-1.2905 8.32603-5.956 8.32603zm1.1912 16.5517c0-6.0188 3.2758-9.3291 6.0552-10.9342-.2978 4.9154-2.2831 8.5267-6.0552 10.9342z"
+								fill="#FF7E15"></path>
+						</svg>
+					</a>
+				</div>
+				<div class="section__text">
+					Либо оставить заявку прямо здесь:</div>
+				<div class="form">
+					<form action="#" id=tg class="form__body">
+						<div class="form__title"> Отправка формы заказа для связи</div>
+						<div class="form__item">
+							<label for="formName" class="form__label">Ваше имя*:</label></br>
+							<input id="formName" tabindex="1" type="text" name="name" class="form__input" placeholder="Имя">
+						</div>
+						<div class="form__item">
+							<label for="formPhone" class="form__label">Номер телефона*:</label></br>
+							<input id="formPhone" tabindex="2" type="tel" name="phone" class="form__input"
+								placeholder="Телефон">
+						</div>
+
+						<div class="form__item">
+							<input id="checkbox" class="form__checkbox" type="checkbox" name="checkbox">
+							<label for="delivery" class="form__label">Нужна доставка</label>
+							<div id="text" class="form__item" style="display: none;">
+								<p>Не забудьте указать адрес в описании заказа :)</p>
+							</div>
+						</div>
+						<div class="form__item">
+							<label for="date" class="form__label">Укажите дату и время, к которому хотите получить
+								заказ*:</label><br>
+							<input id="datetime" tabindex="3" class="form__date" type="datetime-local" name="datetime">
+						</div>
+						<div class="form__item">
+							<label for="formPhone" class="form__label">Опишите Ваш заказ:</label><br>
+							<textarea id="formPhone" tabindex="4" type="text" name="text" class="form__input form__text"
+								placeholder="В заказе можете прописать перечень желаемых товаров и адрес доставки (при необходимости)."></textarea>
+						</div>
+						<button type="submit" class="btn alert">Отправить форму</button>
+					</form>
+				</div>
+
+			</div> <!-- /container -->
+		</section> <!-- /contact -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__text">Магнитогорск, 2022</div>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="../vendors/jquery-3.6.0.js"></script>
+		<script src="../vendors/isInViewport.min.js"></script>
+		<script src="../vendors/slick.min.js"></script>
+		<script src="../app.js"></script>
+</body>
+
+</html>
